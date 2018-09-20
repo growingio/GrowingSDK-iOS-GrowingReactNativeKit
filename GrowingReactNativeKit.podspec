@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "GrowingReactNativeKit"
-  s.version      = "2.4.0"
+  s.version      = "2.5.6"
   s.summary      = "GrowingIO-SDK-GrowingReactNativeKit"
 
   s.description  = <<-DESC
@@ -35,12 +35,12 @@ THE SOFTWARE.
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => 'https://github.com/growingio/GrowingSDK-iOS-GrowingReactNativeKit.git', :branch => 'develop'}
+  s.source       = { :git => 'https://github.com/growingio/GrowingSDK-iOS-GrowingReactNativeKit.git', :tag => s.version}
   s.requires_arc = true
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.static_framework = true
   s.preserve_paths = 'GrowingReactNativeKit/ReleaseNote.txt', 'GrowingReactNativeKit/VERSION'
-  s.dependency 'GrowingAutoTrackKit', '~> 2.4.0'
+  s.dependency 'GrowingAutoTrackKit', '~> 2.5.6'
   s.frameworks = 'Foundation'
   s.vendored_frameworks = 'GrowingReactNativeKit/*.framework'
   
