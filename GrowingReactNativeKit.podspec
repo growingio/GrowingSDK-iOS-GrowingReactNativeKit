@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "GrowingReactNativeKit"
-  s.version      = "2.8.0"
+  s.version      = "2.8.1"
   s.summary      = "GrowingIO-SDK-GrowingReactNativeKit"
 
   s.description  = <<-DESC
@@ -40,7 +40,7 @@ THE SOFTWARE.
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.static_framework = true
   s.preserve_paths = 'GrowingReactNativeKit/ReleaseNote.txt', 'GrowingReactNativeKit/VERSION'
-  s.dependency 'GrowingAutoTrackKit', '~> 2.8.0'
+  s.dependency 'GrowingAutoTrackKit', '~> 2.8.1'
   s.frameworks = 'Foundation'
   s.vendored_frameworks = 'GrowingReactNativeKit/*.framework'
   
