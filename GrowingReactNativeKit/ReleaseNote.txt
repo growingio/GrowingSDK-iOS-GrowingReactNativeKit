@@ -1,3 +1,15 @@
+2.8.4 Release Note
+1.修复 GrowingReactNativeKit版本号读取不到正确值的问题
+
+2.8.3 Release Note
+无
+
+2.8.2 Release Note
+无
+
+2.8.1 Release Note
+无
+
 2.8.0 Release Note
 无
 
