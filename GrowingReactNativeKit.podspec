@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "GrowingReactNativeKit"
-  s.version      = "2.8.8"
+  s.version      = "2.8.9"
   s.summary      = "GrowingIO-SDK-GrowingReactNativeKit"
 
   s.description  = <<-DESC
@@ -33,14 +33,14 @@ THE SOFTWARE.
                      'GrowingIO' => 'support@growingio.com'
                    }
   s.platform     = :ios
-  s.ios.deployment_target = "7.0"
+  s.ios.deployment_target = "8.0"
 
-  s.source       = { :http => 'https://assets.growingio.com/sdk/ios/GrowingIO-iOS-ReactNativeKit-2.8.8.zip' }
+  s.source       = { :http => 'https://assets.growingio.com/sdk/ios/GrowingIO-iOS-ReactNativeKit-2.8.9.zip' }
   s.requires_arc = true
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.static_framework = true
   s.preserve_paths = 'GrowingIO-iOS-ReactNativeKit/ReleaseNote.txt', 'GrowingIO-iOS-ReactNativeKit/VERSION'
-  s.dependency 'GrowingAutoTrackKit', '2.8.8'
+  s.dependency 'GrowingAutoTrackKit', '2.8.9'
   s.frameworks = 'Foundation'
   s.vendored_frameworks = 'GrowingIO-iOS-ReactNativeKit/*.framework'
   
