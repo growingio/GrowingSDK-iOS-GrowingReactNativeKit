@@ -40,7 +40,7 @@ THE SOFTWARE.
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.static_framework = true
   s.preserve_paths = 'GrowingIO-iOS-ReactNativeKit/ReleaseNote.txt', 'GrowingIO-iOS-ReactNativeKit/VERSION'
-  s.dependency 'GrowingAutoTrackKit', s.version
+  s.dependency 'GrowingAutoTrackKit', s.version.to_s
   s.frameworks = 'Foundation'
   s.vendored_frameworks = 'GrowingIO-iOS-ReactNativeKit/*.framework'
   
