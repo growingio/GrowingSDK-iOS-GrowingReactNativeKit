@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "GrowingReactNativeKit"
-  s.version      = "2.9.15"
+  s.version      = "2.9.16"
   s.summary      = "GrowingIO-SDK-GrowingReactNativeKit"
 
   s.description  = <<-DESC
